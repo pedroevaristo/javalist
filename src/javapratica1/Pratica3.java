@@ -1,19 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Other/File.java to edit this template
- */
 package javapratica1;
+import java.util.Scanner;
 
-/**
- *
- * @author pedro
- */
 public class Pratica3 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String args[]) {
-        // TODO code application logic here
+        Scanner scan = new Scanner(System.in);
+        int l = 0;
+        while(l <50){
+            System.out.println(l);
+            l+=1;
+        }
     }
 }
