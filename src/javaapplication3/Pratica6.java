@@ -1,29 +1,30 @@
-import package javaapplication3;
+package javaapplication3;
 import java.util.Scanner;
 public class Pratica6{
   public static void main(String[] args){
-    int acumulador =0;
+    float acumulador = 0;
     Scanner scan = new Scanner(System.in);
-    int[] array = new int[3];
+    float[] array = new float[3];
   int l = 0;//loop
     while(l < 3){
-     array[l]= scan.nextInt();
+     array[l]= scan.nextFloat();
       acumulador+= array[l];
       l+=1;
     }
-    int total = acumulador / 3;
+    
     if(acumulador / 3 == 6){
-      System.out.println("Ta de recuperação");
+      System.out.println("Ta de recuperação : 6");
     }
-    int total = acumulador / 3;
+    float total = acumulador / 3;
     if(total > 6){
-System.out.println("Ta aprovado");
+System.out.println("Ta aprovado "+total);
       
     }
     if(total < 6){
-      System.out.println("Ta reprovado");
+      System.out.println("Ta reprovado "+total);
     }
     
   
   
+  }
 }
